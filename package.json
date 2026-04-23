@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-anki-card-generator-japanese",
+  "version": "0.1.0",
+  "description": "Generate Japanese learning bundles for future Anki export from Obsidian.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && node scripts/copy-kuromoji-dict.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "anki",
+    "japanese"
+  ],
+  "author": "Matthew Bridges",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "latest",
+    "tslib": "2.8.1",
+    "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "kuromoji": "^0.1.2"
+  }
+}

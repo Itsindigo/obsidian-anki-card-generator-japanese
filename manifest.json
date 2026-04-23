@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-anki-card-generator-japanese",
+  "name": "Translator",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Generate Japanese translation bundles with romaji and audio for future Anki export.",
+  "author": "Matthew Bridges",
+  "isDesktopOnly": true
+}
