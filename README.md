@@ -87,6 +87,13 @@ Copy these artifacts into your vault at `.obsidian/plugins/obsidian-anki-card-ge
 
 This plugin is safest to run as a copied build artifact rather than a symlinked repo folder, because Obsidian writes plugin settings into `data.json`.
 
+## Install via BRAT
+
+1. Install the [BRAT plugin](https://github.com/TfTHacker/obsidian42-brat)
+2. In BRAT, choose `Add a beta plugin`
+3. Enter this repo: `Itsindigo/obsidian-anki-card-generator-japanese`
+4. Enable `Translator` in Obsidian community plugins
+
 ## Next likely step
 
 Add an export target layer so we can choose between:
